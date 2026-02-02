@@ -3,6 +3,7 @@ let sumFizz = 0;
 for(i = 1; i<= 50;i++){
     if( i % 3 == 0 && i % 5 == 0){
         console.log(`FizzBuzz`);
+        sumFizz += i;
     } else if (i % 5 == 0){
         console.log(`Buzz`);
     } else if (i % 3 == 0){
@@ -14,3 +15,4 @@ for(i = 1; i<= 50;i++){
 }
 
 console.log(`Tổng các số chia hết cho 3 là ${sumFizz}`);
+
